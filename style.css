@@ -1,0 +1,193 @@
+body {
+    
+    background: black;
+    color: white;
+}
+.priya.activeInfo{
+    opacity: 1;
+    z-index: 2;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
+.priya{
+    width: 600px;
+    height: 1000px;
+    background: aqua;
+    color: blue;
+    border: 2px dotted red;
+    align-items: center;
+    text-align: center;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     border-radius: 10% 30%;
+     pointer-events: none;
+     opacity: 0;
+}
+.priya p:nth-child(1){
+    font-size: 120px;
+    color: red;
+    
+    
+}
+.priya p:nth-child(2){
+    font-size:130px;
+    color:white;
+}
+.priya p:nth-child(3){
+    font-size: 120px;
+    color:red;
+}
+#next{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 30% 10%;
+    color: tomato;
+    font-size: 20px;
+    background: purple;
+    
+}
+.ghosh button{
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-size: 100px;
+    color: blue;
+    background: black    ;
+    
+}
+
+.video.open{
+    pointer-events: auto;
+    opacity: 1;
+    z-index: 3;
+    transform: translate(-50%, -50%) scale(1);
+}
+.video{
+    width: 800px;
+    height: 1200px;
+    background: white;
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     pointer-events: none;
+     opacity: 0;
+}
+.video img{
+    width: 800px;
+    height: auto; 
+}
+#next2{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 30% 10%;
+    color: tomato;
+    font-size: 20px;
+    background: purple;
+}
+.text.text2{
+    pointer-events: auto;
+    opacity: 1;
+    z-index: 4;
+    transform: translate(-50%, -50%) scale(1);
+}
+.text{
+    width: 800px;
+    height: 1200px;
+    background: white;
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     opacity: 0;
+     pointer-events: none;
+    
+    
+}
+.text p:nth-child(1){
+    font-size: 120px;
+    color: black;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+.text p:nth-child(2){
+    font-size: 80px;
+    color:black;
+    position: absolute;
+    bottom: 200px;
+    right: 20px;
+}
+.text p:nth-child(3){
+    font-size: 500px;
+    
+}
+#back{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 10% 30%;
+    color: tomato;
+    font-size: 20px;
+    background: purple;
+}
+.text button{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    bottom: 10px;
+    right:10px;
+    border-radius: 10% 30%;
+    color: tomato;
+    font-size: 20px;
+    background: purple;
+}
+#back2{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 10% 30%;
+    color: tomato;
+    font-size: 20px;
+    background: purple;
+}
+.Love.love2{
+    pointer-events: auto;
+    opacity: 1;
+    z-index: 5;
+    transform: translate(-50%, -50%) scale(1);
+}
+    
+.Love{
+    width: 800px;
+    height: 1200px;
+    background: bisque;
+    color: black;
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     opacity:0 ;
+     pointer-events: none;
+}
+.Love p{
+    font-size: 50px;
+    padding-left: 5px;
+}
+.bmb{
+    font-size: 30px;
+}
